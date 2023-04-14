@@ -1,0 +1,15 @@
+
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  margin: 10px;
+  width: calc(33.33% - 20px);
+}
+
+.portfolio-item img {
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+.contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact label,
+  .contact input,
+  .contact textarea {
+    margin-bottom: 10px;
+  }
+  
+  .contact textarea {
+    resize: vertical;
+  }
+  
