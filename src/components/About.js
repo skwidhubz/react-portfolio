@@ -18,19 +18,17 @@ const About = () => {
       <section className="about-section">
         <div className="about-container">
           <div className="about-image-container">
-            <img className="about-image" src="/vicky-hladynets-C8Ta0gwPbQg-unsplash.jpg" alt="Developer Avatar" />
+            <img className="about-image" src="/public/tom_small.jpg" alt="Developer Avatar" />
           </div>
           <div className="about-content">
-            <h2 className="about-title">About Me</h2>
+            <h2 className="about-title">Tom Parker: student.coding(full-stack)</h2>
             <p className="about-text">
-              Hello! My name is John Doe, and I'm a passionate web developer with over 5 years of experience in building
-              modern and responsive web applications. I specialize in front-end development using technologies such as
-              HTML, CSS, JavaScript, and React.
+            As a junior developer, I have a strong foundation in programming languages such as HTML, CSS, JavaScript, Node.js, and React. I am passionate about web development and are eager to learn new technologies and tools to build high-quality web applications.
             </p>
             <p className="about-text">
-              I'm committed to writing clean, efficient, and maintainable code. I enjoy taking on new challenges and
-              learning new technologies to stay up-to-date with industry trends. My goal is to create user-friendly and
-              visually appealing web experiences that meet the needs of clients and users.
+            I have experience working on both front-end and back-end projects and are comfortable with creating responsive designs and implementing functionality using JavaScript frameworks. I am a team player and enjoy collaborating with other developers to solve complex problems and deliver projects on time.
+
+            I am always seeking to improve your skills and stay up-to-date with the latest industry trends and best practices in web development.
             </p>
           </div>
         </div>
