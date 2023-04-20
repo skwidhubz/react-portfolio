@@ -1,5 +1,20 @@
+@import "../index.css";
+
+body {
+  background-color: var(--darker);
+}
+
 .header {
-    background-color: #f8f8f8;
+  color: var(--light);
+    background-color: var(--darker);
     padding: 10px;
-  }
-  
+}
+
+h1 {
+  color: antiquewhite;
+}
+
+#secondary-text {
+  color: var(--light);
+}
+

@@ -1,3 +1,5 @@
+@import "../index.css";
+
  .about img {
     width: 150px;
     height: 150px;
@@ -6,7 +8,7 @@
 
    .about-section {
     padding: 40px 0;
-    background-color: #f8f8f8;
+    background-color: var(--lighter);
   }
   
   .about-container {
@@ -26,7 +28,7 @@
   
   .about-image {
     width: 100%;
-    border-radius: 50%;
+    border-radius: 5%;
   }
   
   .about-content {

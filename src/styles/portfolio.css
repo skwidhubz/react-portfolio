@@ -1,8 +1,14 @@
+@import "../index.css";
 
+.portfolio {
+  background-color: var(--lighter);
+  padding: 15px;
+}
 
 .portfolio-items {
   display: flex;
   flex-wrap: wrap;
+  padding: 15px;
 }
 
 .portfolio-item {
@@ -11,5 +17,6 @@
 }
 
 .portfolio-item img {
-  width: 100%;
+  width: 40%;
+  /* height: 60%; */
 }

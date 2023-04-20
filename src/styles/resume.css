@@ -1,5 +1,14 @@
+@import "../index.css";
+
+
+.resume {
+  background-color: var(--lighter);
+  padding: 15px;
+}
+
 .resume ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: none;
+    padding-left: 50px;
+
   }
   

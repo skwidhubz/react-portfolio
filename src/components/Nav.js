@@ -8,7 +8,7 @@ const Nav = ({ activeSection, setActiveSection }) => {
 
   return (
     <nav className="nav">
-      <ul>
+      <ul id="nav-list">
         <li className={activeSection === 'about' ? 'active' : ''} onClick={() => navigateTo('about')}>About Me</li>
         <li className={activeSection === 'portfolio' ? 'active' : ''} onClick={() => navigateTo('portfolio')}>Portfolio</li>
         <li className={activeSection === 'contact' ? 'active' : ''} onClick={() => navigateTo('contact')}>Contact</li>

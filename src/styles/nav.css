@@ -1,17 +1,36 @@
-.nav ul {
+@import "../index.css";
+
+* {
+  font-size: 25px;
+}
+
+#nav-list {
     list-style-type: none;
-    margin: 0;
+    margin: 5px;
     padding: 0;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
   
   .nav li {
+    color: var(--neutral);
     margin-right: 10px;
     cursor: pointer;
+    padding: 5px;
+  }
+
+  .nav li:hover {
+    background-color: var(--neutral);
+    color: var(--dark);
+    border-radius: 5%;
   }
   
   .nav li.active {
-    font-weight: bold;
+    color: var(--darker);
+    background-color: var(--lighter);
+    font-weight:600;
+    border-radius: 5%;
   }
   
 
