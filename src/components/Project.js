@@ -6,10 +6,12 @@ const Project = ({title, creator, url, repo, image}) =>{
     return (
         <div className ="portfolio-item">
         <img src={image} alt="Project 1" />
-        <h3>{title}</h3>
-        <a href={url} target="_blank" rel="noopener noreferrer">Deployed App</a>
-        <a href={creator} target="_blank" rel="noopener noreferrer">GitHub repository</a>
-        {/* <a href={repo} target="_blank" rel="noopener noreferrer">{repo}</a> */}
+        <h3 id="project-title">{title}</h3>
+            <div id="project-info">
+                <a href={url} target="_blank" rel="noopener noreferrer">Deployed App</a>
+                <a href={creator} target="_blank" rel="noopener noreferrer">Creator</a>
+                <a href={repo} target="_blank" rel="noopener noreferrer">GitHub repository</a>
+            </div>
         </div>
     );
 }

@@ -8,47 +8,50 @@ import projImg_4 from '../images/tile-travelbug.png';
 import projImg_5 from '../images/tile-code-quiz.png';
 import projImg_6 from '../images/tile-synth.png';
 
+
 const Portfolio = () => {
+
+  const skwidhubz = 'https://github.com/skwidhubz';
 
   const projectArray = [
     {
       title: 'powNFT',
-      creator: 'skwidhubz',
+      creator: skwidhubz,
       url: 'https://www.powNFT.com',
       image: projImg_1,
       repo: 'https://github.com/AnAllergyToAnalogy/POWNFT-miner',
     },
     {
       title: 'Text-Editor',
-      creator: 'skwidhubz',
+      creator: skwidhubz,
       url: 'https://tmp-text-edit-pwa.herokuapp.com/',
       image: projImg_2,
       repo: 'https://github.com/skwidhubz/pwa-text-editor',
     },
     {
       title: 'Weather Dashboard',
-      creator: 'skwidhubz',
+      creator: skwidhubz,
       url: 'https://skwidhubz.github.io/weather-dashboard/',
       image: projImg_3,
       repo: 'https://github.com/skwidhubz/weather-dashboard',
     },
     {
       title: 'travelBug',
-      creator: 'skwidhubz',
+      creator: skwidhubz,
       url: 'https://skwidhubz.github.io/travelbug-app/',
       image: projImg_4,
       repo: 'https://github.com/skwidhubz/travelbug-app',
     },
     {
       title: 'Coding Quiz',
-      creator: 'skwidhubz',
+      creator: skwidhubz,
       url: 'https://skwidhubz.github.io/coding-quiz-tmp/',
       image: projImg_5,
       repo: 'https://github.com/skwidhubz/coding-quiz-tmp',
     },
     {
       title: 'AudioContext Synthesizer',
-      creator: 'skwidhubz',
+      creator: skwidhubz,
       url: 'https://skwidhubz.github.io/ac-library/',
       image: projImg_6,
       repo: 'https://github.com/skwidhubz/ac-library'
@@ -57,10 +60,8 @@ const Portfolio = () => {
 
   return (
     <section className="portfolio">
-      <h2>Portfolio</h2>
+      {/* <h2>Portfolio</h2> */}
       <div className="portfolio-items">
-        {/* Repeat this block for each portfolio item */}
-      {/* // render project */}
       {
         projectArray.map((projectData) => {
           return <Project 

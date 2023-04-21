@@ -4,3 +4,12 @@ a {
     display: block;
 
 }
+
+#project-title {
+    padding: 5px;
+}
+
+#project-info {
+    padding: 5px;
+    margin-bottom: 10px;
+}

@@ -1,5 +1,9 @@
 @import "../index.css";
 
+body {
+  color: var(--darker);
+}
+
 .portfolio {
   background-color: var(--lighter);
   padding: 15px;
@@ -20,3 +24,25 @@
   width: 40%;
   /* height: 60%; */
 }
+
+
+/* hyper link handling */
+
+a {
+  font-size: 80%;
+  color: var(--dark);
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { 
+  text-decoration: none;
+  color: var(--darker);
+}
+
+
+a:active { text-decoration: none; }

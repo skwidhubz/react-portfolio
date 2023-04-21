@@ -10,6 +10,10 @@ body {
     padding: 10px;
 }
 
+img {
+  width: 10%;
+}
+
 h1 {
   color: antiquewhite;
 }
