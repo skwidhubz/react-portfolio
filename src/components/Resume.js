@@ -22,15 +22,15 @@ const Resume = () => {
       <a href={tomParkerCV} target="_blank" rel="noopener noreferrer"><h2>Download Resume</h2></a>
       {/* <h3>Proficiencies</h3> */}
       <ul>
-        <li><img src={html}/></li>
-        <li><img src={css}/></li>
-        <li><img src={c}/></li>
-        <li><img src={js}/></li>
-        <li><img src={mongodb}/></li>
-        <li><img src={nodejs}/></li>
-        <li><img src={mysql}/></li>
-        <li><img src={react}/></li>
-        <li><img src={vscode}/></li>
+        <li><img src={html} alt='html icon'/></li>
+        <li><img src={css} alt='css icon'/></li>
+        <li><img src={c} alt='c icon'/></li>
+        <li><img src={js} alt='javascript icon'/></li>
+        <li><img src={mongodb} alt='mongoDB icon'/></li>
+        <li><img src={nodejs} alt='nodeJS icon'/></li>
+        <li><img src={mysql} alt='mySQL icon'/></li>
+        <li><img src={react} alt='react icon'/></li>
+        <li><img src={vscode} alt='visual studio code icon'/></li>
 
         {/* Add more proficiencies as needed */}
       </ul>

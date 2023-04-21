@@ -10,7 +10,7 @@ const Footer = () => {
       <ul>
       <li><a href="https://github.com/developer" target="_blank" rel="noopener noreferrer"><img src={gitHubIcon} alt='github icon'/></a></li>
       <li><a href="https://www.linkedin.com/in/developer" target="_blank" rel="noopener noreferrer"><img src={linkedInIcon} alt='linkedIn icon'/></a></li>
-      <li><a href="https://stackoverflow.com/users/developer" target="_blank" rel="noopener noreferrer"><img src={emailIcon} alt='email icon'/></a></li>
+      <li><a href="mailto:tommaxwellparker@gmail.com" target="_blank" rel="noopener noreferrer"><img src={emailIcon} alt='email icon'/></a></li>
       </ul>
     </footer>
   );
