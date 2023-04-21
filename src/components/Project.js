@@ -2,14 +2,14 @@ import React from 'react';
 import '../styles/project.css';
 
 
-const Project = ({title, creator, url, image}) =>{
+const Project = ({title, creator, url, repo, image}) =>{
     return (
         <div className ="portfolio-item">
         <img src={image} alt="Project 1" />
         <h3>{title}</h3>
-        <a href={url} target="_blank" rel="noopener noreferrer">Deployed Application</a>
-        <a href={creator} target="_blank" rel="noopener noreferrer">{creator}</a>
-        <a href="https://github.com/developer/project1" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+        <a href={url} target="_blank" rel="noopener noreferrer">Deployed App</a>
+        <a href={creator} target="_blank" rel="noopener noreferrer">GitHub repository</a>
+        {/* <a href={repo} target="_blank" rel="noopener noreferrer">{repo}</a> */}
         </div>
     );
 }

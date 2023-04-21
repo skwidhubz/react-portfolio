@@ -1,12 +1,17 @@
 import React from 'react';
 import '../styles/footer.css';
+import gitHubIcon from '../images/github.png';
+import linkedInIcon from '../images/linkedin.png';
+import emailIcon from '../images/email.png';
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <a href="https://github.com/developer" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a href="https://www.linkedin.com/in/developer" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="https://stackoverflow.com/users/developer" target="_blank" rel="noopener noreferrer">Stack Overflow</a>
+      <ul>
+      <li><a href="https://github.com/developer" target="_blank" rel="noopener noreferrer"><img src={gitHubIcon} alt='github icon'/></a></li>
+      <li><a href="https://www.linkedin.com/in/developer" target="_blank" rel="noopener noreferrer"><img src={linkedInIcon} alt='linkedIn icon'/></a></li>
+      <li><a href="https://stackoverflow.com/users/developer" target="_blank" rel="noopener noreferrer"><img src={emailIcon} alt='email icon'/></a></li>
+      </ul>
     </footer>
   );
 };

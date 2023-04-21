@@ -20,3 +20,10 @@ body {
 code {
   font-family: monospace;
 }
+
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+}
