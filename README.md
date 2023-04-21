@@ -7,10 +7,11 @@
 - [License](#license)
 - [Command](#command)
 - [Contributors](#contributors)
-- [Tests](#tests)
 - [Questions](#questions)
 ## Description
 A portfolio page featuring some of my projects and details on my proficiences as a developer. Also included is a link to download my current resume. This project was build using REACT.
+
+[Link to deployed application](https://skwidhubz.github.io/react-portfolio/)
 
 ![screenshot of profile page](/src/images/screenshot-demo.png "Portfolio Page Screenshot")
 
