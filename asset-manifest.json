@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/skwidhubz/react-portfolio/static/css/main.1b168fd6.css",
-    "main.js": "/skwidhubz/react-portfolio/static/js/main.c8560bf4.js",
+    "main.js": "/skwidhubz/react-portfolio/static/js/main.bf0e7448.js",
     "static/js/787.128fc6e9.chunk.js": "/skwidhubz/react-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/tile-code-quiz.png": "/skwidhubz/react-portfolio/static/media/tile-code-quiz.7e49ece7b8012a0860e3.png",
     "static/media/tile-weather-dashboard.png": "/skwidhubz/react-portfolio/static/media/tile-weather-dashboard.05c44e419d8ffc5d1661.png",
@@ -24,11 +24,11 @@
     "static/media/tile-pwa.png": "/skwidhubz/react-portfolio/static/media/tile-pwa.e003f11da33b26746e2e.png",
     "index.html": "/skwidhubz/react-portfolio/index.html",
     "main.1b168fd6.css.map": "/skwidhubz/react-portfolio/static/css/main.1b168fd6.css.map",
-    "main.c8560bf4.js.map": "/skwidhubz/react-portfolio/static/js/main.c8560bf4.js.map",
+    "main.bf0e7448.js.map": "/skwidhubz/react-portfolio/static/js/main.bf0e7448.js.map",
     "787.128fc6e9.chunk.js.map": "/skwidhubz/react-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b168fd6.css",
-    "static/js/main.c8560bf4.js"
+    "static/js/main.bf0e7448.js"
   ]
 }
